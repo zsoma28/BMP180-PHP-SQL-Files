@@ -1,4 +1,4 @@
-USE sensor_data;
+USE BMP-180;
 
 CREATE TABLE IF NOT EXISTS api_keys (
     id          INT AUTO_INCREMENT PRIMARY KEY,

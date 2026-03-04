@@ -1,8 +1,8 @@
-CREATE DATABASE IF NOT EXISTS sensor_data
+CREATE DATABASE IF NOT EXISTS BMP-180
     CHARACTER SET utf8mb4
     COLLATE utf8mb4_hungarian_ci;
 
-USE sensor_data;
+USE BMP-180;
 
 CREATE TABLE IF NOT EXISTS measurements (
     id          INT AUTO_INCREMENT PRIMARY KEY,

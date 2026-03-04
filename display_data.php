@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username   = "root";
 $password   = "";
-$dbname     = "sensor_data";
+$dbname     = "BMP-180";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
