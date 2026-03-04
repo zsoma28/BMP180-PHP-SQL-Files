@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username   = "root";          // saját adatbázis user
 $password   = "";              // saját jelszó
-$dbname     = "BMP-180";
+$dbname     = "BMP180";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
