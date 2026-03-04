@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username   = "root";               // ← saját adatbázis felhasználó
 $password   = "";                   // ← saját jelszó
-$dbname     = "BMP-180";
+$dbname     = "BMP180";
 
 // API kulcs (élesben ezt is adatbázisból ellenőrizd – lásd sensor_data_api_keys.sql)
 $valid_api_key = "123456789";       // ← cseréld ki a Python scriptben használt kulcsra!
